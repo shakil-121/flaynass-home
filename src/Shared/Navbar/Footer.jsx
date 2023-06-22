@@ -8,7 +8,7 @@ const Footer = () => {
       <footer className="footer p-10 bg-[#03011E] mt-10 text-white text-base-content">
         <div>
             <img className="h-16 w-auto rounded-md" src={logo} alt="" />
-          <p className=""></p>
+          <p className="text-lg">We are the best delivery company <br /> in Bangladesh</p>
         </div>
         <div>
           <span className="footer-title">Company</span>
