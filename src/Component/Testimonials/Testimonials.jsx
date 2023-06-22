@@ -1,48 +1,115 @@
 import img1 from "../../assets/tastimonial/testimonial-img1.jpg"
+import Marquee from "react-fast-marquee";
 
 const Testimonials = () => {
     return (
-        <div>
-            <h3 className='text-[#FF3333]'>Testimonials</h3>
-            <h1 className='text-'>What People and Clients Think About Us?</h1>
-            <div>
-                <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="mt-28">
+            <h3 className='text-[#FF3333] text-center text-xl font-pppins font-semibold'>Testimonials</h3>
+            <h1 className='text- text-center text-6xl font-semibold leading-snug'>What People and Clients <br /> Think About Us?</h1>
+            <Marquee className="mt-10">
+                <div className="card w-96 bg-base-100 shadow-xl m-10">
                     <figure className="px-10 pt-10">
-                        <img src={img1}  alt="Shoes" className="xl rounded-full" />
+                        <img src={img1} alt="Shoes" className="xl rounded-full" />
                     </figure>
                     <div className="card-body items-center text-center">
-                        <h2 className="card-title">Shoes!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
-                        <div className="card-actions">
-                            <button className="btn btn-primary">Buy Now</button>
+                        <h2 className="card-title">Sheikh Hasib</h2>
+                        <div className="rating rating-sm">
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" checked />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" />
                         </div>
+                        <h3 className="text-xl text-gray-500">CEO, Flynass</h3>
+                        <p className="text-xl text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat earum laboriosam reiciendis numquam error impedit quod, obcaecati ullam.</p>
                     </div>
                 </div>
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card w-96 bg-base-100 shadow-xl m-10">
                     <figure className="px-10 pt-10">
-                        <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" />
+                        <img src={img1} alt="Shoes" className="xl rounded-full" />
                     </figure>
                     <div className="card-body items-center text-center">
-                        <h2 className="card-title">Shoes!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
-                        <div className="card-actions">
-                            <button className="btn btn-primary">Buy Now</button>
+                        <h2 className="card-title">Sheikh Hasib</h2>
+                        <div className="rating rating-sm">
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" checked />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" />
                         </div>
+                        <h3 className="text-xl text-gray-500">CEO, Flynass</h3>
+                        <p className="text-xl text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat earum laboriosam reiciendis numquam error impedit quod, obcaecati ullam.</p>
                     </div>
                 </div>
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card w-96 bg-base-100 shadow-xl m-10">
                     <figure className="px-10 pt-10">
-                        <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" />
+                        <img src={img1} alt="Shoes" className="xl rounded-full" />
                     </figure>
                     <div className="card-body items-center text-center">
-                        <h2 className="card-title">Shoes!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
-                        <div className="card-actions">
-                            <button className="btn btn-primary">Buy Now</button>
+                        <h2 className="card-title">Sheikh Hasib</h2>
+                        <div className="rating rating-sm">
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" checked />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" />
                         </div>
+                        <h3 className="text-xl text-gray-500">CEO, Flynass</h3>
+                        <p className="text-xl text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat earum laboriosam reiciendis numquam error impedit quod, obcaecati ullam.</p>
                     </div>
                 </div>
-            </div>
+                <div className="card w-96 bg-base-100 shadow-xl m-10">
+                    <figure className="px-10 pt-10">
+                        <img src={img1} alt="Shoes" className="xl rounded-full" />
+                    </figure>
+                    <div className="card-body items-center text-center">
+                        <h2 className="card-title">Sheikh Hasib</h2>
+                        <div className="rating rating-sm">
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" checked />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" />
+                        </div>
+                        <h3 className="text-xl text-gray-500">CEO, Flynass</h3>
+                        <p className="text-xl text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat earum laboriosam reiciendis numquam error impedit quod, obcaecati ullam.</p>
+                    </div>
+                </div>
+                <div className="card w-96 bg-base-100 shadow-xl m-10">
+                    <figure className="px-10 pt-10">
+                        <img src={img1} alt="Shoes" className="xl rounded-full" />
+                    </figure>
+                    <div className="card-body items-center text-center">
+                        <h2 className="card-title">Sheikh Hasib</h2>
+                        <div className="rating rating-sm">
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" checked />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" />
+                        </div>
+                        <h3 className="text-xl text-gray-500">CEO, Flynass</h3>
+                        <p className="text-xl text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat earum laboriosam reiciendis numquam error impedit quod, obcaecati ullam.</p>
+                    </div>
+                </div>
+                <div className="card w-96 bg-base-100 shadow-xl m-10">
+                    <figure className="px-10 pt-10">
+                        <img src={img1} alt="Shoes" className="xl rounded-full" />
+                    </figure>
+                    <div className="card-body items-center text-center">
+                        <h2 className="card-title">Sheikh Hasib</h2>
+                        <div className="rating rating-sm">
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" checked />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" />
+                            <input type="radio" name="rating-6" className="mask mask-star-2 bg-[#FF3333]" />
+                        </div>
+                        <h3 className="text-xl text-gray-500">CEO, Flynass</h3>
+                        <p className="text-xl text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat earum laboriosam reiciendis numquam error impedit quod, obcaecati ullam.</p>
+                    </div>
+                </div>
+            </Marquee>
         </div>
     );
 };
