@@ -3,8 +3,8 @@ import "./Faq.css";
 
 const Faq = () => {
   return (
-    <div className="bgc py-8 my-8">
-      <div className="mx-16 my-16">
+    <div className="bgc px-16 py-8 my-8">
+      <div className="my-16 max-w-screen-xl mx-auto">
         <div>
           <h1 className="text-indigo-900 font-pppins my-4 text-4xl font-bold">
             Common Frequently Asked Questions
