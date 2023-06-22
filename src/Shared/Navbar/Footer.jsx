@@ -5,7 +5,7 @@ import logo from "../../assets/logo.png";
 const Footer = () => {
   return (
     <div>
-      <footer className="font-pppins footer p-10 bg-[#03011E] mt-10 text-white">
+      <footer className="font-pppins footer justify-items-center p-10 bg-[#03011E] mt-10 text-white">
         <div>
           <img className="h-16 w-auto rounded-md" src={logo} alt="" />
           <p className="text-lg">
