@@ -11,7 +11,7 @@ const HomeBanner = () => {
                     <p className="text-xl leading-9 mb-6">Curabitur imperdiet varius lacus, id placerat purus vulputate non. Fusce in felis vel arcu maximus placerat eu ut arcu. Ut nunc ex, gravida vel porttitor et, pretium ac sapien.</p>
                     <button className="btn btn-secondary">Button</button>
                 </div>
-                <div className="w-96">
+                <div className="">
                     <Lottie animationData={bannerAnimation} loop={true} />;
                 </div>
             </div>
