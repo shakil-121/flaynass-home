@@ -3,7 +3,7 @@ import "./Faq.css";
 
 const Faq = () => {
   return (
-    <div className="bgc py-8">
+    <div className="bgc py-8 my-8">
       <div className="mx-16 my-16">
         <div>
           <h1 className="text-indigo-900 font-pppins my-4 text-4xl font-bold">
@@ -15,7 +15,7 @@ const Faq = () => {
             obcaecati ullam.
           </p>
         </div>
-        <div className="collapse rounded-none collapse-plus bg-black mt-3 text-white">
+        <div className="collapse rounded-none collapse-plus py-2 bg-blue-900 mt-8 text-white">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">
             Q: What does Loxicat industrial do?
@@ -28,7 +28,7 @@ const Faq = () => {
             </p>
           </div>
         </div>
-        <div className="collapse rounded-none collapse-plus bg-black mt-3 text-white">
+        <div className="collapse rounded-none collapse-plus py-2 bg-blue-900 mt-3 text-white">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">
             Q: How much cost for industrial service?
@@ -41,7 +41,7 @@ const Faq = () => {
             </p>
           </div>
         </div>
-        <div className="collapse rounded-none collapse-plus bg-black mt-3 text-white">
+        <div className="collapse rounded-none collapse-plus py-2 bg-blue-900 mt-3 text-white">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">
             Q: How does the industrial process work?
