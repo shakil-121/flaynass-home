@@ -1,49 +1,62 @@
-import React from 'react';
+import React from "react";
+import "./Faq.css";
 
 const Faq = () => {
-    return (
-<div className="mx-16 my-16"> 
-    <div>
-        <h1 className="text-indigo-900 my-4 text-4xl font-bold">FAQ</h1>
+  return (
+    <div className="bgc py-8">
+      <div className="mx-16 my-16">
+        <div>
+          <h1 className="text-indigo-900 font-pppins my-4 text-4xl font-bold">
+            Common Frequently Asked Questions
+          </h1>
+          <p className="font-pppins">
+            orem ipsum dolor sit amet, consectetur adipisicing elit. Repellat
+            earum laboriosam <br /> reiciendis numquam error impedit quod,
+            obcaecati ullam.
+          </p>
+        </div>
+        <div className="collapse rounded-none collapse-plus bg-black mt-3 text-white">
+          <input type="radio" name="my-accordion-3" />
+          <div className="collapse-title text-xl font-medium">
+            Q: What does Loxicat industrial do?
+          </div>
+          <div className="collapse-content">
+            <p>
+              orem ipsum dolor sit amet, consectetur adipisicing elit. Repellat
+              earum laboriosam reiciendis numquam error impedit quod, obcaecati
+              ullam.
+            </p>
+          </div>
+        </div>
+        <div className="collapse rounded-none collapse-plus bg-black mt-3 text-white">
+          <input type="radio" name="my-accordion-3" />
+          <div className="collapse-title text-xl font-medium">
+            Q: How much cost for industrial service?
+          </div>
+          <div className="collapse-content">
+            <p>
+              orem ipsum dolor sit amet, consectetur adipisicing elit. Repellat
+              earum laboriosam reiciendis numquam error impedit quod, obcaecati
+              ullam.
+            </p>
+          </div>
+        </div>
+        <div className="collapse rounded-none collapse-plus bg-black mt-3 text-white">
+          <input type="radio" name="my-accordion-3" />
+          <div className="collapse-title text-xl font-medium">
+            Q: How does the industrial process work?
+          </div>
+          <div className="collapse-content">
+            <p>
+              orem ipsum dolor sit amet, consectetur adipisicing elit. Repellat
+              earum laboriosam reiciendis numquam error impedit quod, obcaecati
+              ullam.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-      <div className="collapse collapse-plus bg-black mt-3 text-white">
-        <input type="radio" name="my-accordion-3"  />
-        <div className="collapse-title text-xl font-medium">
-          Why Language Master ?
-        </div>
-        <div className="collapse-content">
-          <p>Because I create this .......</p>
-        </div>
-      </div>
-      <div className="collapse collapse-plus bg-black mt-3 text-white">
-        <input type="radio" name="my-accordion-3" />
-        <div className="collapse-title text-xl font-medium">
-          Why we should learn another language ?
-        </div>
-        <div className="collapse-content">
-          <p>For better commonication</p>
-        </div>
-      </div>
-      <div className="collapse collapse-plus bg-black mt-3 text-white">
-        <input type="radio" name="my-accordion-3" />
-        <div className="collapse-title text-xl font-medium">
-          Are you provide free courses ?
-        </div>
-        <div className="collapse-content">
-          <p>No</p>
-        </div>
-      </div>
-      <div className="collapse collapse-plus bg-black mt-3 text-white">
-        <input type="radio" name="my-accordion-4" />
-        <div className="collapse-title text-xl font-medium">
-         How we create Instructor account ?
-        </div>
-        <div className="collapse-content">
-          <p>Contact with us</p>
-        </div>
-      </div>
-    </div>
-    );
+  );
 };
 
 export default Faq;
