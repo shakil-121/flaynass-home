@@ -10,7 +10,7 @@ const HomeBanner = () => {
                 <div className="text-white">
                     <h1 className="text-[80px] font-bold font-pppins">Express <br /><span className="text-[#FF3333]">Home Delivery</span></h1>
                     <p className="text-xl leading-9 mb-6">Curabitur imperdiet varius lacus, id placerat purus vulputate non. Fusce in felis vel arcu maximus placerat eu ut arcu. Ut nunc ex, gravida vel porttitor et, pretium ac sapien.</p>
-                    <button className="btn">REGISTER NOW <FaAngleRight></FaAngleRight></button>
+                    <button className="btn font-semibold">REGISTER NOW <FaAngleRight></FaAngleRight></button>
                 </div>
                 <div className="">
                     <Lottie animationData={bannerAnimation} loop={true} />;
