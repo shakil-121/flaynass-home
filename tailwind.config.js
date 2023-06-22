@@ -7,9 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        
-        'serif': ['Poppins']
-        
+        pppins: ['Poppins', 'sans-serif'],
+        roboto: [ 'Roboto', 'sans-serif']
       }
     },
   },
