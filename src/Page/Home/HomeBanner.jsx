@@ -1,10 +1,10 @@
 import bannerAnimation from "../../assets/banner/Delivery BAKE новая попытка.json"
 import Lottie from "lottie-react";
-import './../Home/HomeBanner.css'
+import './HomeBanner.css'
 
 const HomeBanner = () => {
     return (
-        <div className='.rabbi'>
+        <div className='rabbi'>
             <div className="max-w-screen-xl mx-auto grid md:grid-cols-2 justify-items-center py-72">
                 <div className="text-white">
                     <h1 className="text-[80px] font-bold">Express <br /><span className="text-[#FF3333]">Home Delivery</span></h1>
