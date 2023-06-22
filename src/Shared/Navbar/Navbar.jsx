@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     const navItems = <>
         <li className="font-pppins"><Link>Home</Link></li>
-        <li className="font-pppins"><Link to="/menu">Menu</Link></li>
-        <li className="font-pppins"><Link to="/order">Order Food</Link></li>
-        <li className="font-pppins"><Link to="/login">Login</Link></li>
+        <li className="font-pppins"><Link to="/menu">Services</Link></li>
+        <li className="font-pppins"><Link to="/order">About Us</Link></li>
+        <li className="font-pppins"><Link to="/login">Contact Us</Link></li>
     </>
     return (
         <div className='flex justify-center'>

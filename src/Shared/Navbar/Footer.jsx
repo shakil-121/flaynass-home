@@ -1,14 +1,16 @@
 import React from "react";
-import "./Footer.css"
-import logo from "../../assets/logo.png"
+import "./Footer.css";
+import logo from "../../assets/logo.png";
 
 const Footer = () => {
   return (
     <div>
-      <footer className="footer p-10 bg-[#03011E] mt-10 text-white text-base-content">
+      <footer className="font-pppins footer p-10 bg-[#03011E] mt-10 text-white">
         <div>
-            <img className="h-16 w-auto rounded-md" src={logo} alt="" />
-          <p className="text-lg">We are the best delivery company <br /> in Bangladesh</p>
+          <img className="h-16 w-auto rounded-md" src={logo} alt="" />
+          <p className="text-lg">
+            We are the best delivery company <br /> in Bangladesh
+          </p>
         </div>
         <div>
           <span className="footer-title">Company</span>
@@ -55,7 +57,11 @@ const Footer = () => {
             </a>
           </div>
         </div>
+        
       </footer>
+      <div>
+          <p className="font-pppins h-10 text-center text-white border-t-rose-50 bg-[#03011e]">Copyright © 2023 - All right reserved by SR IT Fusion</p>
+        </div>
     </div>
   );
 };
