@@ -4,7 +4,7 @@ import { GrMapLocation } from "react-icons/gr";
 const ChooseUs = () => {
     return (
         <div>
-            <h1 className="text-5xl font-pppins text-center mt-28 mb-20">Why Choose us?</h1>
+            <h1 className="text-5xl font-semibold font-pppins text-center mt-28 mb-20">Why Choose us?</h1>
             <div className="grid grid-cols-4 gap-10 max-w-screen-xl mx-auto">
                 <div className="border p-6 rounded-2xl text-center bg-[#E8F6FC]">
                     <div className="flex justify-center">

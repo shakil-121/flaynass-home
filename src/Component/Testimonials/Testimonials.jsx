@@ -4,8 +4,8 @@ import Marquee from "react-fast-marquee";
 const Testimonials = () => {
     return (
         <div className="mt-28">
-            <h3 className='text-[#FF3333] text-center text-xl font-pppins font-semibold'>Testimonials Shakil</h3>
-            <h1 className='text-indigo-900 text-center text-4xl font-bold leading-snug'>What People and Clients <br /> Think About Us?</h1>
+            <h3 className='text-[#FF3333] text-center text-xl font-pppins font-semibold'>Testimonials</h3>
+            <h1 className='text-indigo-900 text-center text-5xl font-bold leading-snug'>What People and Clients <br /> Think About Us?</h1>
             <Marquee className="mt-10">
                 <div className="card w-96 bg-base-100 shadow-xl m-10">
                     <figure className="px-10 pt-10">
