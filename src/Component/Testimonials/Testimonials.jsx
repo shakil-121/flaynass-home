@@ -1,5 +1,6 @@
 import img1 from "../../assets/tastimonial/testimonial-img1.jpg"
 import Marquee from "react-fast-marquee";
+import './Testimonial.css'
 
 const Testimonials = () => {
     return (
