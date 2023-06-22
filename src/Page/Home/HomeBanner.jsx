@@ -5,8 +5,8 @@ import { FaAngleRight } from "react-icons/fa";
 
 const HomeBanner = () => {
     return (
-        <div className='rabbi'>
-            <div className="xl:max-w-screen-xl mx-16 grid md:grid-cols-2 justify-items-center py-60">
+        <div className='rabbi px-20'>
+            <div className="max-w-screen-xl  mx-auto grid md:grid-cols-2 justify-items-center py-60">
                 <div className="text-white">
                     <h1 className="text-[80px] font-bold font-pppins">Express <br /><span className="text-[#FF3333]">Home Delivery</span></h1>
                     <p className="text-xl leading-9 mb-6">Curabitur imperdiet varius lacus, id placerat purus vulputate non. Fusce in felis vel arcu maximus placerat eu ut arcu. Ut nunc ex, gravida vel porttitor et, pretium ac sapien.</p>
