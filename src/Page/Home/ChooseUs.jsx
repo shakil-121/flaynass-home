@@ -1,6 +1,7 @@
 import { TbTruckDelivery } from "react-icons/tb";
 import { GrMapLocation } from "react-icons/gr";
 
+
 const ChooseUs = () => {
     return (
         <div>
