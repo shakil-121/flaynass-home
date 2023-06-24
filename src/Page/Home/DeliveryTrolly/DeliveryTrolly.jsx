@@ -3,7 +3,7 @@ import trolley from "../../../assets/Trolley/deliveryTorrley.png";
 const DeliveryTrolly = () => {
     return (
         <div className='relative flex flex-col items-center mt-28 mb-36'>
-            <div className='border-4 h-72 w-[500px] mt-24'>
+            <div className='border-4 h-72 w-[500px] mt-24 rounded-2xl'>
 
             </div>
             <div className='absolute grid grid-cols-2 max-w-screen-xl mx-auto  items-center'>
