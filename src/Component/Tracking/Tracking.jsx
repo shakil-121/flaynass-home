@@ -19,7 +19,7 @@ const Tracking = () => {
         <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
           <form method="dialog" className="modal-box">
             <h3 className="font-bold text-lg">Tracking Status</h3>
-            <p className="py-4">
+            <p className="py-4 text-red-600">
               Tracking not found !
             </p>
             <div className="modal-action">

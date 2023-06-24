@@ -5,7 +5,12 @@ const ChooseUs = () => {
     return (
         <div>
             <h1 className="text-5xl font-semibold font-pppins text-center mt-28 mb-20">Why Choose us?</h1>
-            <div className="grid grid-cols-4 gap-10 max-w-screen-xl mx-auto">
+            <div 
+            data-aos="fade-left"
+            data-aos-anchor=".example-anchor"
+            data-aos-duration="1500" 
+            data-aos-delay="100"
+            className="example-anchor grid grid-cols-4 gap-10 max-w-screen-xl mx-auto">
                 <div className="border p-6 rounded-2xl text-center bg-[#E8F6FC]">
                     <div className="flex justify-center">
                         <TbTruckDelivery className="text-7xl text-[#FF3333] mb-4 p-2 rounded-full shadow-lg" />

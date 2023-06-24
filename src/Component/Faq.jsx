@@ -3,9 +3,15 @@ import "./Faq.css";
 
 const Faq = () => {
   return (
-    <div className="bgc px-16 py-8 my-8">
-      <div className="my-16 max-w-screen-xl mx-auto">
-        <div>
+    <div className="example2-anchor bgc px-16 py-8 my-8">
+      <div
+       className="my-16 max-w-screen-xl mx-auto">
+        <div
+        data-aos="fade-left"
+        data-aos-anchor=".example2-anchor"
+        data-aos-duration="1500" 
+        data-aos-delay="100"
+        >
           <h1 className="text-indigo-900 font-pppins my-4 text-4xl font-bold">
             Common Frequently Asked Questions
           </h1>
@@ -15,7 +21,12 @@ const Faq = () => {
             obcaecati ullam.
           </p>
         </div>
-        <div className="collapse rounded-none collapse-plus py-2 bg-blue-900 mt-8 text-white">
+        <div 
+        data-aos="fade-right"
+        data-aos-anchor=".example2-anchor"
+        data-aos-duration="1500" 
+        data-aos-delay="100"
+        className="collapse rounded-none collapse-plus py-2 bg-blue-900 mt-8 text-white">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">
             Q: What does Loxicat industrial do?
@@ -28,7 +39,12 @@ const Faq = () => {
             </p>
           </div>
         </div>
-        <div className="collapse rounded-none collapse-plus py-2 bg-blue-900 mt-3 text-white">
+        <div 
+        data-aos="fade-left"
+        data-aos-anchor=".example2-anchor"
+        data-aos-duration="1500" 
+        data-aos-delay="100"
+        className="collapse rounded-none collapse-plus py-2 bg-blue-900 mt-3 text-white">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">
             Q: How much cost for industrial service?
@@ -41,7 +57,12 @@ const Faq = () => {
             </p>
           </div>
         </div>
-        <div className="collapse rounded-none collapse-plus py-2 bg-blue-900 mt-3 text-white">
+        <div
+        data-aos="fade-right"
+        data-aos-anchor=".example2-anchor"
+        data-aos-duration="1500" 
+        data-aos-delay="100"
+        className="collapse rounded-none collapse-plus py-2 bg-blue-900 mt-3 text-white">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">
             Q: How does the industrial process work?
